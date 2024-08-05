@@ -3,7 +3,7 @@ import AddUser from "./addUser/AddUser";
 import "./chat-list.css";
 
 const ChatList = () => {
-  const [addMode, setAddMode] = useState(true);
+  const [addMode, setAddMode] = useState(false);
 
   return (
     <div className="chatList">
